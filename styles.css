@@ -1,0 +1,460 @@
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0px;
+  margin: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  margin: 0px 30px;
+  background-color: #fff;
+}
+
+.logo img {
+  height: 60px;
+  width: 62px;
+  cursor: pointer;
+}
+nav .menu {
+  display: none;
+}
+
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 50px;
+  color: #00000052;
+  font-weight: 600;
+  font-size: 15px;
+}
+nav a:hover {
+  color: #22a66e;
+}
+
+nav .home {
+  color: #20a36c;
+  padding: 5px 8px;
+  border: 1px solid #20a36c;
+  box-shadow: 0 0 5px #20a36c;
+}
+
+header .sign {
+  text-decoration: none;
+  color: #20a36c;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 5px 8px;
+  border: 2px solid #fff;
+  box-shadow: 0 5px 10px #00000040;
+  transition: 0.3s;
+}
+header .sign:hover {
+  background-color: #20a36c;
+  color: #fff;
+  transition: 0.3s;
+}
+
+main {
+  background-image: url(";;;\ 1.png");
+  background-color: #f5f9fc;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 50px;
+}
+
+main h1 {
+  font-weight: 700;
+  font-size: 50px;
+  color: #37374d;
+  text-shadow: 0px 4px 4px #00000040;
+}
+main .quran {
+  font-weight: 300;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #4d4b4b;
+  display: flex;
+  flex-direction: column;
+}
+main p {
+  line-height: 1.5;
+}
+main img {
+  width: 500px;
+  height: 500px;
+}
+.btn {
+  display: flex;
+}
+.btn h3 {
+  margin: 20px 30px;
+  padding: 15px 30px;
+}
+
+.btn .read {
+  background: linear-gradient(90deg, #20a36c 8.64%, #52e6a7 95.76%);
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn .read:hover {
+  background: none;
+  background-color: #37374d;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn .audio {
+  border: 1px solid #37374d;
+  border-radius: 10px;
+  color: #37374d;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn .audio:hover {
+  color: #fff;
+  background-color: #20a36c;
+  transition: 0.3s;
+}
+.second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 100px;
+}
+.circle {
+  width: 500px;
+  height: 500px;
+  background-image: url("Ellipse\ 8 1.png");
+  background-repeat: no-repeat;
+}
+.circle img {
+  width: 480px;
+  height: 480px;
+  margin: -30px 0px 0px 0px;
+}
+
+.second h1 {
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  color: #37374d;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.second .descri {
+  font-weight: 300;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #37374d;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px 20px;
+}
+
+.second p {
+  line-height: 1.5;
+}
+
+.second .story {
+  display: flex;
+  justify-content: center;
+}
+
+.second .story h3:hover {
+  background-color: #37374d;
+  color: #fff;
+  border: 1px solid #37374d;
+  transition: 0.3s;
+}
+.second h3 {
+  border: 2px solid #20a36c;
+  border-radius: 10px;
+  margin: 20px 30px;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ready {
+  font-weight: 700;
+  text-align: center;
+  color: #37374d;
+  text-shadow: 0px 4px 4px #00000040;
+  text-transform: capitalize;
+}
+
+.search {
+  color: #37374d;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 2px solid #20a36c;
+  border-radius: 10px;
+  width: 30vw;
+  min-width: 300px;
+  margin: 50px 0;
+}
+
+.search input {
+  border: none; /*2px solid #20a36c;*/
+  border-radius: 10px;
+
+  padding: 15px 25px;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  width: 80%;
+  display: inline-block;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.search .icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+ion-icon {
+  font-size: 25px;
+  color: #37374d;
+  --ionicon-stroke-width: 60px;
+  cursor: pointer;
+}
+input {
+  color: #37374d;
+  text-align: left;
+}
+.list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 20px 200px;
+}
+.list h3 {
+  color: #37374d;
+  font-size: 20px;
+}
+
+.list .opn {
+  color: #37374d;
+  font-size: 15px;
+}
+
+.list .vers {
+  color: #37374d;
+  font-size: 11px;
+}
+
+.surah {
+  border: 1px solid #7e7e7e;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.surah img {
+  width: 60px;
+  height: 60px;
+  margin: 0 20px;
+}
+
+.surah .info {
+  margin: 0 20px;
+}
+.surah .humb {
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  top: 20px;
+  right: 5px;
+}
+.chose {
+  background: linear-gradient(90deg, #22a66e -1.91%, #4ee0a3 101.44%),
+    linear-gradient(0deg, #26ac73, #26ac73);
+}
+
+.chose h3 {
+  color: #fff;
+}
+.chose .info p {
+  color: #fff;
+}
+
+.show {
+  display: flex;
+  justify-content: center;
+}
+.show h3:hover {
+  background-color: #37374d;
+  color: #fff;
+  border: 1px solid #37374d;
+  transition: 0.3s;
+}
+
+.show h3 {
+  border: 2px solid #20a36c;
+  border-radius: 10px;
+  margin: 20px 30px;
+  padding: 15px 30px;
+  color: #37374d;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.blogs {
+  display: flex;
+  justify-content: center;
+  margin: 50px 200px 30px 200px;
+}
+
+.blog img {
+  width: 360px;
+  height: 300px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.blog h3 {
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #37374d;
+  cursor: pointer;
+}
+
+.blog p {
+  text-transform: capitalize;
+  color: #37374d;
+}
+.blog .readBlog {
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #22a66e;
+  cursor: pointer;
+}
+footer {
+  background-color: #37374d;
+  padding: 40px 0;
+  display: flex;
+  position: relative;
+}
+footer h3 {
+  color: #fff;
+  font-size: 20px;
+}
+footer p {
+  color: #fff;
+  font-size: 18px;
+}
+.social img {
+  margin: 0 40px;
+  height: 40px;
+  width: 40px;
+}
+
+.media {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+.first p,
+.first h3 {
+  margin: 60px 150px;
+}
+
+.loogo {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 200px;
+  left: 140px;
+}
+
+.secondd {
+  background-color: #fff;
+  border-radius: 50px;
+  width: 800px;
+  padding: 50px;
+  margin: 50px 40px;
+}
+.secondd h3 {
+  background-color: #37374d;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 40px;
+}
+.secondd input {
+  background-color: #37374d;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 40px;
+  font-size: 20px;
+  margin: 10px;
+}
+.secondd .add {
+  padding: 30px 60px 70px 40px;
+}
+.secondd .submit {
+  background-color: #49d99d;
+  box-shadow: 4px 8px 16px -2px #00000040;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  nav a {
+    display: none;
+    cursor: pointer;
+  }
+  nav .menu {
+    display: inline;
+  }
+  main {
+    flex-direction: column;
+  }
+  .second {
+    flex-direction: column;
+  }
+  .list {
+    grid-template-columns: 1fr 1fr;
+  }
+  .blogs {
+    flex-wrap: wrap;
+  }
+  footer {
+    display: block;
+    flex-direction: column;
+  }
+  .secondd {
+    flex-direction: column;
+  }
+  .loogo {
+    bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .list {
+    grid-template-columns: 1fr;
+  }
+}
